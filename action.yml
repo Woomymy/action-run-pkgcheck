@@ -1,0 +1,5 @@
+name: "action-run-pkgcheck"
+description: "Executes pkgcheck on a gentoo ebuild repository"
+runs:
+  using: "docker"
+  image: "Dockerfile"
