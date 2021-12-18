@@ -10,4 +10,4 @@ Packages:
 $(ls *)
 EOF
 
-pkgcheck ci .
+pkgcheck scan --exit
